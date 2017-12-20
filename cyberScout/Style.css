@@ -3,3 +3,32 @@
 .bar {
 	background-color: #a92725;
 }
+
+.slider {
+	height: 400px;
+ 	
+}
+.left {
+	position: absolute;
+	margin-top: 10%;
+	padding: 15px;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 0 10px 10px 0;
+}
+.right {
+	position: absolute;
+	padding: 15px;
+	margin-top: 10%;
+	margin-left: 97%;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 10px 0 0 10px;
+
+}
+
+
+.count {
+	position: absolute;
+	color: white;
+}
