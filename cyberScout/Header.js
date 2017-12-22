@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 const Header =()=>{
 	return(
@@ -12,8 +13,8 @@ const Header =()=>{
 			  <div className="navbar-menu">
 			    <p className="is-size-3"> Cyberscouts </p>
 			    	<div className="navbar-end ">
-			    		<a className="navbar-item is-size-5">Home </a>
-			    		<a className="navbar-item is-size-5">Gallery </a>
+			    		<NavLink to="/home" className="navbar-item is-size-5"> Home </NavLink>
+			    		<NavLink to="/gallery" className="navbar-item is-size-5">Gallery </NavLink>
 			    		<a className="navbar-item is-size-5">Programme </a>
 			    		<a className="navbar-item is-size-5">Connect with us </a>
 			    		<span class="navbar-item">
